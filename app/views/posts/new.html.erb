@@ -1,5 +1,5 @@
 <%= form_for @post do |f| %>
-	Title: <%= f.text_field :title %>
-	Body: <%= f.text_area :body %>
+	Title: <%= f.text_field :title, placeholder: 'Type a Title...' %>
+	Body: <%= f.text_field :body %>
 	<%= f.submit %>
 <% end %>

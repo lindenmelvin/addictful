@@ -1,0 +1,16 @@
+@mixin animation($name, $iterations, $duration) {
+	animation-name: $name;
+	animation-iteration-count: $iterations;
+	animation-timing-function: ease-in;
+	animation-duration: $duration;
+
+	-webkit-animation-name: $name;
+	-webkit-animation-iteration-count: $iterations;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-duration: $duration;
+
+	-moz-animation-name: $name;
+	-moz-animation-iteration-count: $iterations;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation-duration: $duration;
+}

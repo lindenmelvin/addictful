@@ -11,9 +11,11 @@
     <div class="alert alert-<%= key %>"><%= value %></div>
   <% end %>
 
+  <%= render "layouts/main_nav" %>
 
-
-	<%= yield %>
+  <div class="main-content">
+		<%= yield %>
+	</div>
 
 </body>
 </html>

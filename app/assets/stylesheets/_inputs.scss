@@ -1,0 +1,41 @@
+input, textarea {
+  resize: none;
+
+  &:focus{
+    outline:none;
+  }
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  border: none;
+  padding: 2px;
+  border-bottom: 1px solid #FFF;
+  background-color: transparent;
+  color: #FFF;
+  font-size: 16px;
+
+  @include transition(all, 0.2s, ease-in-out);
+
+  &:focus {
+  }
+}
+
+input[type="submit"] {
+  background-color: #FFF;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 4px;
+  padding: 10px;
+  @include transition(background-color, 0.1s, linear);
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: rgba(0,0,0,0.2);
+    @include transition(background-color, 0.1s, linear);
+  }
+}

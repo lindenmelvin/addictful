@@ -1,0 +1,46 @@
+button {
+  padding: 3px 15px;
+}
+
+.canvas {
+  width: 90%;
+  margin: auto;
+  height: 250px;
+  border: 1px dotted #000;
+  position: relative;
+  
+  .ui-icon-gripsmall-diagonal-se {
+    position:absolute;
+    background-color:#000;
+    right:0;
+    bottom:0;
+    height:10px;
+    width:10px;
+  } 
+  
+  .ui-resizable-s, .ui-resizable-e {
+    display:none !important;
+  }
+  
+  div {
+    position:absolute;
+    background-color:red;
+    color:white;
+    z-index:1;
+    height:50px;
+    width:50px;
+  }
+  
+  p {
+    position:absolute;
+    background-color:green;
+    color:white;
+    z-index:1;
+    height:50px;
+    width:50px;
+  }
+}
+
+.options-container {
+  display:none;
+}

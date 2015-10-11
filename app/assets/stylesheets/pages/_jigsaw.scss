@@ -1,0 +1,24 @@
+#puzzle {
+	z-index: 100;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.group {
+	position: relative;
+	width:0; 
+	height:0; 
+	top: 0;
+	left: 0;
+	overflow: visible;
+	z-index: 1;
+}
+
+.piece {
+	background-image:url( http://www.fordesigner.com/imguploads/Image/cjbc/zcool/png20080526/1211795048.png);
+	background-size: 800px 800px;
+	position: absolute; 
+}
